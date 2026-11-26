@@ -6,3 +6,9 @@ Build SITL for the obriy branch:
 ./waf configure --board sitl
 ./waf copter
 ```
+
+Run the simulator:
+
+```sh
+Tools/autotest/sim_vehicle.py -v ArduCopter --map --console
+```
